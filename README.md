@@ -40,7 +40,4 @@ This repo sticks to the basics in order to provide a good baseline model for thi
 3. Certain classification categories are "noisy" such as "related" or "child alone" (no positive examples). These can either be removed, or more data can be acquired that provides enough missing examples for such cases.
 
 
-## Demo:
-
-Click on [this link](https://player.vimeo.com/video/938785718) to see a demonstration video.
 
