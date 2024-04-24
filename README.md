@@ -42,7 +42,5 @@ This repo sticks to the basics in order to provide a good baseline model for thi
 
 ## Demo:
 
-<video src="./Demo/demo.mp4" width="640" height="360" controls>
-  Your browser does not support the video tag.
-</video>
+Click on [this link](https://player.vimeo.com/video/938785718) to see a demonstration video.
 
