@@ -1,10 +1,10 @@
-# Disaster Message Classifier
+# Emergency Message Classifier
 
-The Disaster Message Classifier is a set of ETL & ML scripts - combined with a web app that can be used to classify a disaster event related message into appropriate categories, such as Fire, Earthquake, Floods etc. Since there are 36 categories in total, the model solves a multilabel Natural Language Processing classification problem i.e. each message can belong to multiple categories. For example, the message "we need food and shelter after the earthquake in our region" will have labels food, shelter, earthquake, direct report, etc.
+The Emergency Message Classifier is a set of ETL & ML scripts - combined with a web app that can be used to classify a emergency event related message into appropriate categories, such as Fire, Earthquake, Floods etc. Since there are 36 categories in total, the model solves a multilabel Natural Language Processing classification problem i.e. each message can belong to multiple categories. For example, the message "we need food and shelter after the earthquake in our region" will have labels food, shelter, earthquake, direct report, etc.
 
 This is a portfolio project, offered by Udacity, to showcase data engineering and modelling skills on a small dataset.
 
-A walkthrough notebook for the project can be found [here](https://github.com/sajal2692/disaster-message-classifier/blob/master/notebook/walkthrough.ipynb).
+A walkthrough notebook for the project can be found [here](https://github.com/bilalfatian/Emergency-message-classifier/blob/main/notebook/walkthrough.ipynb).
 
 ## Files:
 - `data/process_data.py`: The ETL pipeline used to process data in preparation for model building.
@@ -20,16 +20,16 @@ A walkthrough notebook for the project can be found [here](https://github.com/sa
 2. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+        `python data/process_data.py data/emergency_messages.csv data/emergency_categories.csv data/EmergencyResponse.db`
     - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+        `python models/train_classifier.py data/EmergencyResponse.db models/classifier.pkl`
 
 3. Run the following command to run your web app.
     `python app/run.py`
 
 4. Go to http://0.0.0.0:3001/
 
-Please raise an issue if these instructions don't work for you!
+The code can take a few hours to run completely, depending on your computer's performance, so please be patient.
 
 ## Further Improvements
 
@@ -40,9 +40,6 @@ This repo sticks to the basics in order to provide a good baseline model for thi
 3. Certain classification categories are "noisy" such as "related" or "child alone" (no positive examples). These can either be removed, or more data can be acquired that provides enough missing examples for such cases.
 
 
-## Screenshot:
+## Demo:
 
-![Classified Message](screenshots/message_classification_result.png)
-
-
-Check out my [Data Science Portfolio](https://github.com/sajal2692/data-science-portfolio) repository, or my [website](https://sajalsharma.com) for more Data Science and Machine Learning Projects.
+![Classified Message](Demo/Demo.mp4)
