@@ -42,4 +42,7 @@ This repo sticks to the basics in order to provide a good baseline model for thi
 
 ## Demo:
 
-![Classified Message](Demo/Demo.mp4)
+<video src="./Demo/demo.mp4" width="640" height="360" controls>
+  Your browser does not support the video tag.
+</video>
+
