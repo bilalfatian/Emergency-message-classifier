@@ -1,0 +1,42 @@
+<!--
+###########################################
+###                                   ###
+###  Author: Bilal Fatian             ###
+###  Date: 27/01/2022                 ###
+###                                   ###
+###########################################
+-->
+
+
+{% extends "master.html" %}
+
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    <div class="container">
+        <hr />
+        <h4 class="text-center">Message</h4>
+        <p class="text-center"><i>{{query}}</i></p>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="text-center">Result</h1>
+        <div class="row">
+            {% for category, classification in classification_result.items() %}
+                {% if loop.index0 % 4 == 0 %}
+                    </div><div class="row">
+                {% endif %}
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <li class="list-group-item text-center {% if classification == 1 %}list-group-item-success{% else %}list-group-item-dark{% endif %}">
+                            {{ category.replace('_', ' ').title() }}
+                        </li>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+
