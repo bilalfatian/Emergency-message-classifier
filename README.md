@@ -2,8 +2,6 @@
 
 The Emergency Message Classifier is a set of ETL & ML scripts - combined with a web app that can be used to classify a emergency event related message into appropriate categories, such as Fire, Earthquake, Floods etc. Since there are 36 categories in total, the model solves a multilabel Natural Language Processing classification problem i.e. each message can belong to multiple categories. For example, the message "we need food and shelter after the earthquake in our region" will have labels food, shelter, earthquake, direct report, etc.
 
-This is a portfolio project, offered by Udacity, to showcase data engineering and modelling skills on a small dataset.
-
 A walkthrough notebook for the project can be found [here](https://github.com/bilalfatian/Emergency-message-classifier/blob/main/notebook/walkthrough.ipynb).
 
 ## Files:
