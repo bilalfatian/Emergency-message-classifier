@@ -39,5 +39,9 @@ This repo sticks to the basics in order to provide a good baseline model for thi
 2. A Neural Network can be trained for this task. Better yet, a pre-trained state-of-the-art transformer based network can be fine tuned using the data available to us. 
 3. Certain classification categories are "noisy" such as "related" or "child alone" (no positive examples). These can either be removed, or more data can be acquired that provides enough missing examples for such cases.
 
+## Contact Me 📨
+
+- **LinkedIn:** [Bilal Fatian](https://www.linkedin.com/in/bilal-fatian-806813254/)
+- **Gmail:** [fatian.bilal@gmail.com](mailto:fatian.bilal@gmail.com)
 
 
